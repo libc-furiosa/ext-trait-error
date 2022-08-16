@@ -1,0 +1,11 @@
+[package]
+name = "ext-trait-error"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = "0.1.36"
+#tracing-opentelemetry = "0.17.4"
+tracing-opentelemetry = { git = "https://github.com/furiosa-ai/tracing", rev = "f056f0a" }
